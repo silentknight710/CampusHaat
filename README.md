@@ -55,46 +55,6 @@ food-delivery-analytics/
 - **Plotly** (Data visualizations)
 - **HTML/CSS/JavaScript** (Dashboard UI)
 
-## 🚀 Quick Start
-
-### 1. Clone Repository
-```bash
-git clone https://github.com/yourusername/food-delivery-analytics.git
-cd food-delivery-analytics
-```
-
-### 2. Setup Environment
-```bash
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### 3. Setup Database
-```bash
-# Initialize database with sample data
-python scripts/setup_database.py
-python scripts/load_sample_data.py
-```
-
-### 4. Run Applications
-
-**Start API Server:**
-```bash
-cd src/api
-python app.py
-# API runs on http://localhost:5000
-```
-
-**Launch Dashboard:**
-```bash
-cd dashboard
-streamlit run dashboard_app.py
-# Dashboard runs on http://localhost:8501
-```
 
 ## 📊 Core Analytics Features
 
@@ -275,31 +235,4 @@ docker-compose up -d
 ./deploy.sh production
 ```
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes (`git commit -m 'Add amazing feature'`)
-4. Push to branch (`git push origin feature/amazing-feature`)
-5. Open Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 👨‍💻 Author
-
-**Your Name**
-- 📧 Email: your.email@example.com
-- 💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- 🐱 GitHub: [Your GitHub](https://github.com/yourusername)
-
-## 🙏 Acknowledgments
-
-- **CampusHaat Solutions Pvt. Ltd.** for the internship opportunity
-- **Data Science Team** for guidance and support
-- **Open Source Community** for tools and libraries used
-
----
-
-**⭐ Star this repository if you found it helpful!**
